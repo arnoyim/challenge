@@ -9,6 +9,6 @@ var App = React.createClass({displayName: "App",
   }
 });
 
-module.exports = App;
+React.render(React.createElement(App, null), document.querySelector('#app'));
 
 },{}]},{},["/Users/arnoyim/challenge"]);

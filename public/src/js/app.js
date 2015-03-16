@@ -8,4 +8,4 @@ var App = React.createClass({
   }
 });
 
-module.exports = App;
+React.render(<App />, document.querySelector('#app'));
